@@ -39,7 +39,7 @@
     border: 0.1em solid rgb(0, 0, 0);
 }
 .choice{
-    background-color: rgb(223, 217, 217);
+    background-color: rgb(230, 230, 230);
     width: 100%;
     border-radius: 0.5em;
 }
@@ -53,15 +53,16 @@
     width: 80%;
 }
 .Button{
-    color: rgb(42, 75, 182);
+    color: rgba(61, 89, 182);
     background-color: rgb(230, 230, 230);
     border-radius: 0.4em;
     width: 90%;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
     margin-top: 2%;
     border: 0;
-    font-size: 1.3em;
+    font-size: 1.4em;
+    font-weight: 500;
 }
 .Homeimg{
     width: 20%;
@@ -79,8 +80,9 @@ p{
     font-size: 1.7em;
 }
 b{
-    font-size: 1.5em;
-    font-weight: normal;
+    font-size: 1.4em;
+    font-weight:normal;
+    font-family:'Times New Roman', Times, serif;
 }
 .food_text{
     font-size: 1.5em;
