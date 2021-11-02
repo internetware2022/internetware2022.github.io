@@ -17,7 +17,7 @@ new Vue({
     },
     methods: {
         changx: function (x) {
-            for (i = 1; i <= 10; i++) {
+            for (i = 1; i <= 9; i++) {
                 var b = document.getElementById("b" + i);
                 var d = document.getElementById("d" + i);
                 if (x == i) {
