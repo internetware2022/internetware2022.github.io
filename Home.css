@@ -1,0 +1,99 @@
+.upper{
+    width: 100%;
+    text-align: center;
+    height: auto;
+}
+.tital{
+    width:75%;
+    text-align: left;
+    display: inline-block;
+
+}
+.tital2{
+    display: flex;
+    width: 100%;
+
+}
+.tital_text{
+    font-size: 4em;
+    font-weight:bolder;
+}
+.tital_text2{
+    font-size: 2em;
+    font-weight: bold;
+}
+.lower{
+    width: 100%;
+    text-align: center;
+    height: auto;
+}
+.registration{
+    background-color: rgba(217, 241, 197, 0.479);
+    display: inline-block;
+    width: 90%;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+.table1{
+    border: 0.1em solid rgb(0, 0, 0);
+}
+.choice{
+    background-color: rgb(223, 217, 217);
+    width: 100%;
+    border-radius: 0.5em;
+}
+.sign{
+    background-color: rgb(223, 217, 217);
+    width: 100%;
+    height: 33em;
+    border-radius: 0.5em;
+}
+.pages{
+    width: 80%;
+}
+.Button{
+    color: rgb(42, 75, 182);
+    background-color: rgb(230, 230, 230);
+    border-radius: 0.4em;
+    width: 90%;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-top: 2%;
+    border: 0;
+    font-size: 1.3em;
+}
+.Homeimg{
+    width: 20%;
+}
+.d2{
+    text-align: left;
+}
+.scroll{
+    overflow: scroll;
+}
+td{
+    border: 0.1em solid rgb(223, 217, 217);
+}
+p{
+    font-size: 1.7em;
+}
+b{
+    font-size: 1.5em;
+    font-weight: normal;
+}
+.food_text{
+    font-size: 1.5em;
+}
+h5{
+    font-size: 2.5em;
+}
+h3{
+    font-size: 2em;
+}
+h4{
+    font-size: 1.6em;
+}
+li{
+    font-size: 1.5em;
+}

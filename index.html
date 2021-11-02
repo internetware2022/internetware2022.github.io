@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <title>internetware2022</title>
+    <link rel="stylesheet" type="text/css" href="./Home.css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+</head>
+
+<body id="text">
+    <div id="total">
+        <br>
+        <br>
+        <br>
+        <div class="upper">
+            <div class="tital">
+                <div class="tital2">
+                    <div style="width: 11%;">
+                        <img src="./images/1633856117(1).jpg" alt="" style="width:11em;height:11em;">
+                    </div>
+                    <div style="width: 59%;">
+                        <br>
+                        <b class="tital_text">Internetware 2022</b>
+                        <br>
+                        <b class="tital_text2">Huhhot,May 12-14,2022</b>
+                    </div>
+
+                    <div style="text-align: right;width: 30%;">
+                        <img class="picture2" src="./images/8Y(KJ[O9]GALDVE3FIB9FO3.png" alt="" style="height:10em;">
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <img id="p1" src="./images/呼和浩特.jpg" :style="{width:picture_width,height:picture_height}" alt="">
+        </div>
+        <div class="lower">
+            <div style="display: inline-block;width: 81%;">
+                <!--                <div class="registration">
+                    <p style="font-size: 2.5em;">Register</p>
+                    <b style="font-size: 2em;">A virtual conference,each session will be held via Zoom</b>
+                    <br>
+                    <table width="100%" style="font-size: 1.5em;">
+                        <tr>
+                            <td class="table1" rowspan="2">Author</td>
+                            <td class="table1" colspan="3">Non-Author</td>
+                        </tr>
+                        <tr>
+                            <td class="table1">Non-Student</td>
+                            <td class="table1">Student</td>
+                            <td class="table1">ACM/CCF Members</td>
+                        </tr>
+                        <tr>
+                            <td class="table1" style="width: 40%;">300</td>
+                            <td class="table1" style="width: 20%;">100</td>
+                            <td class="table1" style="width: 20%;">50</td>
+                            <td class="table1" style="width: 20%;">50</td>
+                        </tr>
+                    </table>
+                    <br>
+                    <a href="" style="font-size: 1.5em;">Register Now!</a>
+                    <br>
+                    <br>
+                </div>-->
+                <br>
+                <br>
+                <div style="display: inline-block;width: 90%;">
+                    <div style="display: flex;width: 100%;">
+                        <div style="width: 23%;">
+                            <div class="choice">
+                                <button id="b1" class="Button" v-on:click="changx(1)"
+                                    style="background-color: rgb(42, 75, 182);color: white;">Home</button>
+                                <button id="b2" class="Button" v-on:click="changx(2)">Program<b
+                                        style="color: red;">*</b></button>
+                                <button id="b3" class="Button" v-on:click="changx(3)">Keynote</button>
+                                <button id="b4" class="Button" v-on:click="changx(4)">Visa Information</button>
+                                <button id="b5" class="Button" v-on:click="changx(5)">Call For Papers</button>
+                                <button id="b6" class="Button" v-on:click="changx(6)">Important Dates</button>
+                                <button id="b7" class="Button" v-on:click="changx(7)">Committee</button>
+                                <button id="b8" class="Button" v-on:click="changx(8)">Venue and Access</button>
+                                <button id="b9" class="Button" v-on:click="changx(9)">Accommodation</button>
+                                <button id="b10" class="Button" v-on:click="changx(10)"
+                                    style="margin-bottom: 2%;">Travel Information and
+                                    Foods</button>
+                            </div>
+                            <br>
+                            <div class="sign" style="font-size: 1.5em;">
+                                <p>Sponsors</p>
+                                <img src="./images/Sponsors.png" alt="" style="width: 100%;">
+                            </div>
+                        </div>
+                        <div class="pages">
+                            <div id="d1" style="margin-left: 2em;">
+                                <div style="width: 100%;justify-content: space-around;display: flex;">
+                                    <img class="Homeimg" src="./images/Home01.jpeg" alt="">
+                                    <img class="Homeimg" src="./images/Home02.jpeg" alt="">
+                                    <img class="Homeimg" src="./images/Home03.jpeg" alt="">
+                                    <img class="Homeimg" src="./images/Home04.jpeg" alt="">
+                                </div>
+                                <div style="text-align: justify;">
+                                    <p style="font-size: 2em;">Welcome to Internetware 2022</p>
+                                    <b style="font-size: 1.5em;">
+                                        Internet provides a global open infrastructure for exchanging and sharing of
+                                        various
+                                        resources for the people all over the world. The rapid development and the wide
+                                        application of Internet make it become a new mainstream platform for software to
+                                        be
+                                        used, developed, deployed and executed. With the vision of “Internet as
+                                        computer”,
+                                        many application styles such as pervasive computing, grid computing, service
+                                        computing and cloud computing occur on this open and dynamic environment. In
+                                        order
+                                        to support various new application styles and accommodate the fundamental change
+                                        of
+                                        the underlying supporting platform, many specific software technologies such as
+                                        service-oriented architecture are proposed for current practices. However,
+                                        although
+                                        these technologies are useful and popular, they are far from systematic and
+                                        complete
+                                        because no uniformed software methodology and technology system like the
+                                        object-oriented one is provided.
+                                    </b><br><br>
+                                    <b>
+                                        Conceptually speaking, in order to adapt the software system to such a new
+                                        environment, its structure model should be autonomous, cooperative, situational,
+                                        evolvable, emergent, trustworthy, etc. The software entities dispersed on
+                                        distributed nodes over the Internet, which evolved from objects in
+                                        object-oriented
+                                        methodology to software components (component-based software development), now
+                                        are
+                                        further turned into self-contained, autonomous and adaptive software services in
+                                        service-oriented computing of state-of-arts. These software entities are
+                                        coordinated
+                                        statically and dynamically in various kinds of interaction styles (passively and
+                                        actively) such as integration, cooperation, and orchestration to achieve
+                                        flexible
+                                        design objectives. So a so-called “software-web” instead of information-web is
+                                        weaved. This software-web as a whole is able to perceive the changes of open,
+                                        dynamic, and uncertain environment and respond them in the way of transforming
+                                        architectures. Furthermore, the flexible design objective of the software-web is
+                                        reflected by its exhibiting several compatible goal-directed behaviors according
+                                        to
+                                        its up-to-date knowledge about the outside environment. A portmanteau term
+                                        “Internetware” is used to denote the future software-web in open and dynamic
+                                        environment, which can be defined as follows: an Internetware system is a
+                                        software
+                                        system consists of the self-contained, autonomous entities situated in the
+                                        distributed nodes of Internet and the coordinators connecting these entities
+                                        statically and dynamically in various kinds of interaction styles (passively and
+                                        actively). As a whole, an Internetware system is able to perceive the changes of
+                                        open and dynamic environment such as Internet, respond to the changes in the way
+                                        of
+                                        architectural transformation, and exhibit context-aware, adaptive and
+                                        trustworthy
+                                        behaviors in the open and dynamic environment in order to meet its flexible
+                                        design
+                                        objectives. Internetware challenges many aspects of software technologies, from
+                                        operating platforms, programming models, to engineering approaches, etc.
+                                    </b>
+                                </div>
+                            </div>
+
+                            <div id="d2" class="d2" style="display: none;margin-left: 2em;">
+                                <!--                                <p style="font-size: 2em;">Internetware 2022 Program</p>
+                                <b style="font-size:1.5em;font-weight: normal;">Download the program <a
+                                        href="">here</a></b>
+                                <div class="scroll" :style="{height:scroll_height}">
+                                    
+                                    <table style="height: 1000px;font-size: 1.5em;">
+                                        <tr>
+                                            <td>111111111111111</td>
+                                            <td>222222222222222</td>
+                                        </tr>
+                                        <tr>
+                                            <td>333333333333333</td>
+                                            <td>444444444444444</td>
+                                        </tr>
+                                    </table>
+                                
+                                </div>-->
+                            </div>
+
+                            <div id="d3" style="display: none;margin-left: 2em;">
+                                <!--                                <p>Keynote Speakers</p>
+                                <div class="Speakers" style="width: 100%;">
+                                    <p>Testing Machine Learning-Enabled Systems</p>
+                                    <div style="width: 100%;display: flex;">
+                                        <div style="width: 30%;height: auto;">
+                                            <img src="./images/Prof. LIONEL C. BRIAND.png" alt="" style="width: 100%;">
+                                        </div>
+                                        <div style="width: 70%;">
+                                            <p>Prof. LIONEL C. BRIAND</p>
+                                            <p>University of Ottawa and University of Luxembourg</p>
+                                            <p>Abstract</p>
+                                            <b>This talk will provide a personal perspective on the state of art
+                                                regarding the automated testing of software systems enabled by machine
+                                                learning. Such systems typically contain components relying on machine
+                                                learning, whose behavior is not specified or coded but driven by
+                                                training data, but which interact with other components in the system
+                                                and play a critical role. Typical examples include cyber-physical
+                                                systems that rely on machine learning in their perception (e.g.,
+                                                analyzing camera images) and control (e.g., sending commands to
+                                                actuators) layers. In my reflections, I will rely both on my analysis of
+                                                the state of the art and personal experience in research projects
+                                                carried out with industrial partners in the automotive domain.</b>
+                                            <p>Biography</p>
+                                            <b>Lionel C. Briand is professor of software engineering and has shared
+                                                appointments between (1) School of Electrical Engineering and Computer
+                                                Science, University of Ottawa, Canada and (2) The SnT centre for
+                                                Security, Reliability, and Trust, University of Luxembourg. He is the
+                                                head of the SVV department at the SnT Centre and a Canada Research Chair
+                                                in Intelligent Software Dependability and Compliance (Tier 1). He holds
+                                                an ERC Advanced Grant, the most prestigious European individual research
+                                                award, and has conducted applied research in collaboration with industry
+                                                for more than 25 years, including projects in the automotive, aerospace,
+                                                manufacturing, financial, and energy domains. He is a fellow of the IEEE
+                                                and ACM. He was also granted the IEEE Computer Society Harlan Mills
+                                                award (2012) and the IEEE Reliability Society Engineer-of-the-year award
+                                                (2013) for his work on model-based verification and testing.</b>
+                                        </div>
+                                    </div>
+
+                                    <p>Smart Contract Security and Fairness: A Tale of Two Contending Parties</p>
+                                    <div style="width: 100%;display: flex;">
+                                        <div style="width: 30%;height: auto;">
+                                            <img src="./images/Prof. Yi Li.png" alt="" style="width: 100%;">
+                                        </div>
+                                        <div style="width: 70%;">
+                                            <p>Prof. Yi Li</p>
+                                            <p>Nanyang Technological University</p>
+                                            <p>Abstract</p>
+                                            <b>It was the best of times; it was the worst of times. Smart contracts are
+                                                computer programs running atop blockchain platforms to manage large sums
+                                                of money, carry out transactions of assets, and govern the transfer of
+                                                digital rights between multiple parties. Smart contracts bring hope to
+                                                transparent and trustworthy exchange of value in a trustless
+                                                environment. Yet, in reality, the trustworthiness of smart contracts are
+                                                under constant threats, with people losing millions of dollars. In this
+                                                talk, I will cover the two sides of the same coin, demonstrating how the
+                                                security and fairness of smart contracts are both due to the mismanaged
+                                                conflicting interests between contending parties. I will also present
+                                                solutions we have developed in the past few years and suggest potential
+                                                future research directions.</b>
+                                            <p>Biography</p>
+                                            <b>Yi Li is an Assistant Professor at the School of Computer Science and
+                                                Engineering, Nanyang Technological University (NTU). He received his
+                                                BComp degree in Computer Science from the National University of
+                                                Singapore in 2011, and both his MSc and PhD degrees in Computer Science
+                                                from the University of Toronto in 2013 and 2018, respectively. Dr. Li is
+                                                leading the Software Reliability and Security Lab (SRSLab@NTU) since
+                                                2018. He served as Co-Chair of the ICECCS’20 Program Committee, Co-Chair
+                                                of ICFEM’19 Doctoral Symposium, a member of the Program Committee of
+                                                ASE’21, FSE’21, FASE’21, ASE’20, and ICDCS’20. Dr. Li’s research
+                                                interests focused on program analysis and automated reasoning techniques
+                                                with applications in but not limit to various aspects of software
+                                                engineering, such as software model checking, bug finding, software
+                                                security and software evolution. Dr. Li has published over 30
+                                                peer-reviewed conference papers and journal articles, including articles
+                                                in IEEE TSE, IEEE TDSC, ASEJ, FMSD, ACM CSUR, as well as papers in ICSE,
+                                                POPL, CAV, ASE, and FSE. His recent work on software change history
+                                                analysis won an IEEE Best Artifact Award at ICSME’20 and ACM
+                                                Distinguished Paper Award at ASE’15.</b>
+                                        </div>
+                                    </div>
+
+                                    <p>Operational Software Quality Assurance for DNNs in the Field</p>
+                                    <div style="width: 100%;display: flex;">
+                                        <div style="width: 30%;height: auto;">
+                                            <img src="./images/Prof. Xiaoxing Ma.png" alt="" style="width: 100%;">
+                                        </div>
+                                        <div style="width: 70%;">
+                                            <p>Prof. Xiaoxing Ma</p>
+                                            <p>Nanjing University</p>
+                                            <p>Abstract</p>
+                                            <b>Different from conventional software artifacts, Deep Neural Network (DNN)
+                                                models are intrinsically inductive and uncertain. Adopting DNN models in
+                                                field settings requires a new paradigm of software quality assurance.
+                                                This talk will discuss an operational, statistical, and efficient
+                                                approach to the quality assurance for third-party DNN models in
+                                                deployment. In particular, we will present the operational accuracy
+                                                estimation and the operational confidence calibration, which can be
+                                                viewed as a testing and a debugging activity, respectively, for DNN
+                                                models being deployed.
+                                            </b>
+                                            <p>Biography</p>
+                                            <b>Xiaoxing Ma is a professor and the Deputy Head of the Department of
+                                                Computer Science and Technology at Nanjing University. From the same
+                                                university, he received his doctoral degree in Computer Science in 2003.
+                                                His research interests include self-adaptive software systems, software
+                                                architectures, and quality assurance for machine learning models used as
+                                                software components. He co-authored over 100 peer-reviewed papers and
+                                                served in technical program committees of various international software
+                                                engineering conferences. He has received two Second Prizes of the
+                                                National Science and Technology Progress Award of China and several
+                                                best/distinguished paper awards.
+                                            </b>
+                                        </div>
+                                    </div>
+
+
+                                </div>-->
+                            </div>
+
+                            <div id="d4" style="display: none;margin-left: 2em;">
+
+                            </div>
+
+                            <div id="d5" style="display: none;text-align: left;margin-left: 2em;">
+                                <h5>Introduction</h5>
+                                <!--
+                                <div class="alert alert-success  alert-dismissible" role="alert"> <button type="button"
+                                        class="close" data-dismiss="alert" aria-label="Close"><span
+                                            aria-hidden="true">&times;</span></button>
+                                    <h5>Important Notice for Second Round Call For Paper</h5>
+                                    <p>Due to the Covid-19 pandemic, the conference date has been shifted to May 2022.
+                                        Therefore, the second call for paper is being launched to open another
+                                        opportunity for researchers to submit their research work.</p><br />
+                                    <p>Please note, in the second CFP round, authors whose papers are submited will be
+                                        reviewed and marked by Main Track II ranther than the Main Track. </p>
+                                </div>
+
+
+                                <div class="alert alert-success  alert-dismissible" role="alert"> <button type="button"
+                                        class="close" data-dismiss="alert" aria-label="Close"><span
+                                            aria-hidden="true">&times;</span></button>
+                                    <h5>Call for the Doctoral Symposium Papers </h5>
+
+                                </div>
+
+-->
+                                <p>With the Internetware paradigm, the software is architected like the Internet,
+                                    developed with the Internet, operated on the Internet, and provided as services via
+                                    the Internet. In the open, dynamic, and constantly changing environment of Internet,
+                                    Internetware systems need to be autonomous, cooperative, situational, evolvable,
+                                    emergent, and trustworthy. These requirements pose special challenges for software
+                                    technologies to support the construction, deployment, and use of software
+                                    applications based on Internet that not only of computers, but also of things and
+                                    human users.</p>
+                                <p>This symposium aims to provide an interactive forum where researchers and
+                                    professionals from multiple disciplines and domains meet and exchange ideas to
+                                    explore and address the challenges brought by Internetware.</p>
+                                <p>Internetware 2022 will be held November 1-3 in Huhhot. We solicit submissions
+                                    describing original and unpublished results of theoretical, empirical, conceptual,
+                                    and experimental software engineering research related to Internetware. Topics of
+                                    interests include but are not limited to:</p>
+                                <ul>
+                                    <li>Novel software paradigm for Internetware</li>
+                                    <li>Modeling and implementation of Internetware</li>
+                                    <li>Requirements engineering for Internetware</li>
+                                    <li>Software analysis, verification and testing</li>
+                                    <li>Mining software repositories</li>
+                                    <li>Software dependability, trustworthiness and confidence</li>
+                                    <li>Software architecture and design</li>
+                                    <li>Crowd-based methods, techniques and tools for Internetware</li>
+                                    <li>Socio-technical models and techniques</li>
+                                    <li>Software ecosystem practices and experiences</li>
+                                    <li>Software models and techniques for Internet-based systems such as Cloud
+                                        Computing, Service Computing, Social commputing, Mobile Internet, Internet of
+                                        Things, and Cyber-Physical Systems</li>
+                                    <li>Software engineering for/with Big data</li>
+                                    <li>Software engineering for/with Artificial Intelligence</li>
+                                </ul>
+                                </br>
+                                <!--
+                                <h5>Special Tracks</h5>
+
+
+                                <p>Internetware 2020 organized several special tracks in collaboration with multiple
+                                    top-tier transactions/journals, including <a
+                                        href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=24">IEEE
+                                        Transactions on Reliability</a>, SOSYM, Cyber Security and Journal of
+                                    Information and Software Technology. Papers submitted into the main track will be
+                                    selected and invited to submit an extended version of their papers to the IEEE
+                                    Transactions on Reliability. All the extended submissions will be evaluated
+                                    following the guidelines set by the corresponding journal. Only those satisfying all
+                                    the criteria will be accepted for the journal publication.</p>
+
+                                <p>Papers submitted and accepted by the corresponding special tracks will be published
+                                    in the Internetware 2020 proceeding firstly, and be invited to submit an extended
+                                    version of their papers to the corresponding journals. All the extended submissions
+                                    will be evaluated following the guidelines set by the corresponding journal. Only
+                                    those satisfying all the criteria will be accepted for the journal publication.</p>
+                                <ul>
+
+                                    <li><a href="./sp22.html">Special Track on Open Environmental Software Systems
+                                            Modelling (SOSYM）</a></li>
+                                    <li><a href="./sp11.html">Special Track on Intelligent Software Engineering (Journal
+                                            of Information and Software Technology)</a></li>
+                                    <li><a href="./sp44.html">Special Track/Issue on Blockchain-Based Software Systems
+                                            (IEEE Transactions on Reliability)</a></li>
+                                    <li><a href="./sp55.html">Special Track/Issue on Security and Privacy of Modern
+                                            Software (Cyber Security)</a></li>
+                                    <li><b> Doctoral Symposium</b><br />The participation restricts to the students and
+                                        the members of the Program Committee. Accepted submissions will be published as
+                                        short papers in the Internetware 2020 conference proceedings. Papers must not
+                                        exceed 4 pages (including figures and appendices) plus up to 1-page references.
+                                    </li>
+
+                                </ul>
+
+                                </br>-->
+                                <h5>Submission</h5>
+                                <p>All submissions must not exceed 10 pages for all text, figures, tables, and
+                                    references. All submissions must be in English and in PDF format. Submissions that
+                                    do not comply with the above instructions will be desk rejected without review.
+                                    Please use the ACM Master article template, as can be obtained from the <a
+                                        href="https://www.acm.org/publications/proceedings-template">ACM Proceedings
+                                        Template pages.</a></p>
+                                Papers must be submitted electronically through <a
+                                    href="https://easychair.org/conferences/?conf=internetware2020"> EasyChair </a>.
+                                </br>
+
+                                <h5>Important Dates:</h5>
+                                <ul>
+                                    <del>
+                                        <li>Submission Deadline: July 21, 2022</li>
+                                    </del>
+                                    <del>
+                                        <li style="color:red">Submission Deadline: August 21, 2022</li>
+                                    </del>
+
+                                    <del>
+                                        <li>Notification of Acceptance: August 23, 2022</li>
+                                    </del>
+                                    <del>
+                                        <li style="color:red">Notification of Acceptance: September 23, 2022</li>
+                                    </del>
+                                    <li style="color:red">Notification of Acceptance: Oct 15, 2022</li>
+
+
+                                    <li>Camera-Ready Version: TBD</li>
+                                </ul>
+
+                                </br>
+
+                                <h5>Camera-Ready Instructions:</h5>
+                                <p>Accepted Full papers must not exceed 10 pages for all text, figures, tables, and
+                                    references. Accepted short papers must not exceed 6 pages for all text, figures,
+                                    tables, and references. Please upload the camera copy via EasyChair. When uploading
+                                    the camera copy, you must upload manuscripts including the source files and PDFs.
+                                    You can compress the files in a zip file and upload the zip file.</p>
+
+                                </br>
+
+                                <h5>Publication:</h5>
+                                <p>All authors of accepted papers of will be asked to complete an electronic ACM
+                                    Copyright form and will receive further instructions for preparing their camera
+                                    ready versions. All accepted contributions will be published in the of Internetware
+                                    2022 electronic proceedings and in the ACM Digital Library. </p>
+
+                            </div>
+
+                            <div id="d6" style="display: none;text-align: left;margin-left: 2em;">
+
+
+                                <h5>First Round </h5>
+
+                                <ul>
+
+                                    <li>Submission Deadline: July 21, 2022</li>
+
+                                    <li style="color:red">Submission Deadline: August 21, 2022</li>
+
+                                    <li>Notification of Acceptance: August 23, 2022</li>
+
+                                    <li style="color:red">Notification of Acceptance: September 23, 2022</li>
+
+                                    <li style="color:red">Notification of Acceptance: Oct 15, 2022</li>
+
+                                    <li>Camera-Ready Version: TBD</li>
+
+                                </ul>
+                            </div>
+
+                            <div id="d7" style="display: none;text-align: left; margin-left: 2em;">
+                                <h3>Steering Committee</h3>
+                                <h4>Co-Chairs</h4>
+                                <ul>
+                                    <li>Hong Mei, Peking University, China</li>
+                                    <li>Jian Lyu, Nanjing University, China</li>
+                                </ul>
+                                <h4>Members</h4>
+                                <ul>
+                                    <li><a href="http://www.sei.pku.edu.cn/people/zhijin">Zhi Jin</a>, Peking
+                                        University, China</li>
+                                    <li><a href="http://people.ucas.ac.cn/~0003572?language=en">Tao Huang</a>, Chinese
+                                        Academy of Sciences, China</li>
+                                    <li>Daoxu Chen, Nanjing University, China</li>
+                                    <li><a
+                                            href="http://www.thss.tsinghua.edu.cn/publish/soften/3131/2010/20101219100058471372347/20101219100058471372347_.html">Jianmin
+                                            Wang</a>, Tsinghua University, China</li>
+                                    <li>Xuandong Li, Nanjing University, China</li>
+                                </ul>
+
+
+                                <h3>Honorary Chair</h3>
+                                <ul>
+                                    <li><a href="https://www.comp.nus.edu.sg/~dongjs/">JinSong, DONG</a>, National
+                                        University of Singapore, Singapore</li>
+                                </ul>
+                                <h3> General Co-Chairs</h3>
+                                <ul>
+                                    <li><a href="http://www.sei.pku.edu.cn/people/zhijin">Zhi Jin</a>, Peking
+                                        University, China</li>
+                                    <li>Xuandong Li, Nanjing University, China</li>
+                                    <li><a href="https://ccs.imu.edu.cn/info/1152/3125.htm">Guanglai Gao</a>, Inner Mongolia University, China</li>
+                                </ul>
+
+
+
+
+
+                                <h3> Programe Committee </h3>
+                                <h4>Co-Chairs</h4>
+
+                                <ul>
+                                    <li><a href='mailto:junsun@smu.edu.sg'>Jun Sun</a>, Singapore Management University,
+                                        Singapore</li>
+                                    <li><a href='mailto:bulei@nju.edu.cn'>Lei Bu</a>, Nanjing University, China</li>
+                                    <li><a href='mailto:lige@pku.edu.cn'>Ge Li</a>, Peking University, China</li>
+                                </ul>
+
+
+
+                                <h4>Members</h4>
+
+                                <ul>
+                                    <li><a href='mailto:zqzuo@nju.edu.cn'>Zhiqiang Zuo </a>, Nanjing University, China
+                                    </li>
+                                    <li><a href='mailto:lqchen@nudt.edu.cn'>Liqian Chen </a>, National University of
+                                        Defense Technology, China</li>
+                                    <li><a href='mailto:zbchen@nudt.edu.cn'>Zhengbang Chen </a>, National University of
+                                        Defense Technology, China</li>
+                                    <li><a href='mailto:jy1989@mail.tsinghua.edu.cn'>Yu Jiang </a>, Tsinghua University,
+                                        China</li>
+                                    <li><a href='mailto:hausimuller@gmail.com'>Hausi Mller </a>, University of Victoria,
+                                        Canada</li>
+                                    <li><a href='mailto:davidlo@smu.edu.sg'>David Lo </a>, Singapore Management
+                                        University, Singapore</li>
+                                    <li><a href='mailto:xin.xia@monash.edu'>Xin Xia </a>, Monash University, Australia
+                                    </li>
+                                    <li><a href='mailto:fuyuan@mpi-sws.org'>Fuyuan Zhang </a>, MPI-SWS, Germany</li>
+                                    <li><a href='mailto:jie.zhang@ucl.ac.uk'>Jie Zhang </a>, University College London,
+                                        UK</li>
+                                    <li><a href='mailto:cygao@cse.cuhk.edu.hk'>Cuiyun Gao </a>, Nanyang Technological
+                                        University, Singapore</li>
+                                    <li><a href='mailto:xfxie@ntu.edu.sg'>Xiaofei Xie </a>, Nanyang Technological
+                                        University, Singapore</li>
+                                    <li><a href='mailto:yuanfang.li@monash.edu'>Yuanfang Li </a>, Monash University,
+                                        Australia</li>
+                                    <li><a href='mailto:wangjyee@gmail.com'>Jingyi Wang </a>, National University of
+                                        Singapore, Singapore</li>
+                                    <li><a href='mailto:lxjiang@smu.edu.sg'>Lingxiao Jiang </a>, Singapore Management
+                                        University, Singapore</li>
+                                    <li><a href='mailto:jun.pang@uni.lu'>Jun Pang </a>, University of Luxembourg,
+                                        Luxembourg</li>
+                                    <li><a href='mailto:taolue.chen@gmail.com'>Taolue Chen </a>, University of London,
+                                        UK</li>
+                                    <li><a href='mailto:jyy@nju.edu.cn'>Yanyan Jiang </a>, Nanjing University, China
+                                    </li>
+                                    <li><a href='mailto:changxu@nju.edu.cn'>Chang Xu </a>, Nanjing University, China
+                                    </li>
+                                    <li><a href='mailto:jifeng.xuan@gmail.com'>Jifeng Xuan </a>, Wuhan University, China
+                                    </li>
+                                    <li><a href='mailto:zhhy@sei.pku.edu.cn'>Haiyan Zhao </a>, Peking University, China
+                                    </li>
+                                    <li><a href='mailto:zhmh@pku.edu.cn'>Minghui Zhou </a>, Peking University, China
+                                    </li>
+                                    <li><a href='mailto:chunyang.chen@monash.edu'>Chunyang Chen </a>, Monash University,
+                                        Australia</li>
+                                    <li><a href='mailto:tsuletgo@gmail.com'>Ting Su </a>, ETH Zurich, Switzerland</li>
+                                    <li><a href='mailto:pengxin@fudan.edu.cn'>Xin Peng </a>, Fudan University, China
+                                    </li>
+                                    <li><a href='mailto:tei@nii.ac.jp'>Kenji Tei </a>, National Institute of
+                                        Informatics, Japan</li>
+                                    <li><a href='mailto:taoxie@gmail.com'>Tao Xie </a>, University of Illinois at
+                                        Urbana-Champaign, USA</li>
+                                    <li><a href='mailto:chenyt@cs.sjtu.edu.cn'>Yuting Chen </a>, Shanghai Jiao Tong
+                                        University, China</li>
+                                    <li><a href='mailto:f-ishikawa@nii.ac.jp'>Fuyuki Ishikawa </a>, National Institute
+                                        of Informatics, Japan</li>
+                                    <li><a href='mailto:jianghe@dlut.edu.cn'>He Jiang </a>, Dalian University of
+                                        Technology, China</li>
+                                    <li><a href='mailto:liuhui08@bit.edu.cn'>Hui Liu </a>, Beijing Institute of
+                                        Technology, China</li>
+                                    <li><a href='mailto:malei@ait.kyushu-u.ac.jp'>Lei Ma </a>, Kyushu University, Japan
+                                    </li>
+                                    <li><a href='mailto:xxm@nju.edu.cn'>Xiaoxing Ma </a>, Nanjing University, China</li>
+                                    <li><a href='mailto:masuhara@acm.org'>Hidehiko Masuhara </a>, Tokyo Institute of
+                                        Technology, Japan</li>
+                                    <li><a href='mailto:fengyang@nju.edu.cn'>Yang Feng</a>, Nanjing University, China
+                                    </li>
+                                </ul>
+
+
+
+                                <h3>Local Arrangement Co-Chairs</h3>
+                                <ul>
+                                    <li><a href="https://ccs.imu.edu.cn/info/1152/3257.htm">Jiantao Zhou</a>, Inner Mongolia University, China</li>
+                                    <li><a href="https://ccs.imu.edu.cn/info/1153/3131.htm">Junfeng Zhao</a>, Inner Mongolia University, China</li>
+                                </ul>
+
+                                <h3>Web Chair</h3>
+                                <ul>
+                                    <li><a href="https://ccs.imu.edu.cn/info/1153/3551.htm">Yongqiang Gao</a>, Inner Mongolia University, China</li>
+                                </ul>
+
+                                <h3>Financial Chair</h3>
+                                <ul>
+                                    <li><a href="https://ccs.imu.edu.cn/info/1153/3551.htm">Yongqiang Gao</a>, Inner Mongolia University, China</li>
+                                </ul>
+
+                                <h3>Proceedings Chair</h3>
+                                <ul>
+                                    <li><a href="mailto:linglingfan@nankai.edu.cn">Lingling Fan</a>, Nankai University,
+                                        China </li>
+                                </ul>
+
+                                <h3>Publicity and Social Media Chair</h3>
+                                <ul>
+                                    <li><a href="mailto:malei.2005@gmail.com">Lei Ma</a>, Kyushu University, Japan</li>
+                                </ul>
+
+
+                            </div>
+                            <div id="d8" style="display: none;text-align: left;margin-left: 2em;">
+                                <div>
+                                    <br>
+                                    <b>1. All guests are invited to wear their attendance cards and masks to enter and
+                                        leave the venue and residence.</b><br>
+                                    <b>2. Please shut down the communication tools during the meeting.</b><br>
+                                    <b>3. The venue of the conference is located in Xincheng Hotel, Hohhot. Please make
+                                        arrangements in advance according to your participation and arrive at the venue
+                                        in advance.</b><br>
+                                    <b>4. Personal information shall be subject to the information filled in at the time
+                                        of registration. If there is any change, please correct it at the time of
+                                        registration.</b><br>
+                                    <b>5. Venue: Hohhot Xincheng Hotel (No. 40, Hulunbuir South Road, Xincheng
+                                        District)</b><br>
+                                    <br>
+                                </div>
+
+
+                                <p>How to get to Hohhot Xincheng Hotel:</p><br>
+
+                                <b>1. About 17 km from Baita International Airport</b><br>
+                                <b>1）It takes about 32 minutes to get to the hotel by special bus / taxi.</b><br>
+                                <b>2）It takes about 42 minutes to get to the hotel by subway.</b><br>
+                                <b>Walk 237m to Baita West subway station - entrance / exit b → take Metro Line 1
+                                    (towards Yili health Valley) and take bus No. 10</b><br>
+                                <b>→Arrive at the people's Hall subway station→Walk 648 meters to Xincheng
+                                    hotel</b><br><br>
+
+                                <b>2. It is about 9.5km away from Hohhot east railway station</b><br>
+                                <b>1）It takes about 19 minutes to get to the hotel by special bus / taxi.</b><br>
+                                <b>2）It takes about 43 minutes to reach the hotel by subway.</b><br>
+                                <b>Walk 870m to Hohhot east station subway station→Take Metro Line 1 (towards Yili
+                                    health Valley) and take station 7</b><br>
+                                <b>→Arrive at the people's Hall subway station→Walk 648 meters to Xincheng
+                                    hotel</b><br><br>
+
+                                <b>3. About 2.8km away from Hohhot station</b><br>
+                                <b>1）It takes about 13 minutes to get to the hotel by special bus / taxi.</b><br>
+                                <b>2）It takes about 21 minutes to reach the hotel by subway.</b><br>
+                                <b>Walk 155 meters to Hohhot subway station→Take Metro Line 2 (in the direction of
+                                    ALSHAN Road) and take one stop</b><br>
+                                <b> →Arrive at Xinhua Square subway station→(transfer in the station) walk 80m to Xinhua
+                                    Square subway station of line 1</b><br>
+                                <b>→Take Metro Line 1 (in the direction of Bayan (Airport) and take station 1→ Arrive at
+                                    the people's Hall subway station</b><br>
+                                <b>→Walk 648 meters to Xincheng hotel</b><br>
+                                <br>
+                                <br>
+                                <div style="width: 100%;text-align: center;">
+                                    <img src="./images/map.jpg" alt="" style="width: 50%;">
+                                </div>
+                            </div>
+                            <div id="d9" style="display: none;margin-left: 2em;">
+                                <!--                                <p style="font-size: 20px;color: #000;">Hotel Recommendation:</p>
+                                <p style="font-size: 3px;"></p>
+                                <table style="width: 100%;font-size: 1.5em;">
+                                    <tr style="background-color: darkslateblue;">
+                                        <td class="td" style="color: white;">Number</td>
+                                        <td class="td" style="color: white;">Hotel name</td>
+                                        <td class="td" style="color: white;">Star</td>
+                                        <td class="td" style="color: white;">Reference price (including breakfast)</td>
+                                        <td class="td" style="color: white;">Instructions</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="td2">1</td>
+                                        <td class="td2">Xincheng Hotel</td>
+                                        <td class="td2">Single room (five-star)</td>
+                                        <td class="td2">600¥/night</td>
+                                        <td class="td2">There is a shortage of houses, so you need to book in advance as
+                                            soon as possible</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="td2">2</td>
+                                        <td class="td2">Inner Mongolia Hotel</td>
+                                        <td class="td2">Standard room / Single room (five-star)</td>
+                                        <td class="td2">730¥/night</td>
+                                        <td class="td2">Near Xincheng Hotel</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="td2">3</td>
+                                        <td class="td2">Hailiang Hotel</td>
+                                        <td class="td2">Standard room / Single room (five-star)</td>
+                                        <td class="td2">350¥/night</td>
+                                        <td class="td2">Convenient distance from commercial street</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="td2">4</td>
+                                        <td class="td2">Shuimu Nianhua Sunshine Hotel</td>
+                                        <td class="td2">Standard room / Single room (four-star)</td>
+                                        <td class="td2">410¥/night</td>
+                                        <td class="td2">Near Xincheng Hotel</td>
+                                    </tr>
+                                </table>
+                                <div style="text-align: left; font-size: 1.5em;margin-left:3%">
+                                    If you need assistance in booking a hotel, please send a text message to 13734712952
+                                    or email to gaoyongqiang@imu.edu.cn , information content: Name + company + mobile
+                                    phone number + number of rooms + check-in time + departure time.<br>
+                                </div>-->
+                            </div>
+                            <div id="d10" style="display: none;margin-left: 2em;">
+                                <div style="text-align: left;margin-left: 5%;">
+                                    <p style="font-weight: bold;">Travel</p>
+                                    <b class="food_text">
+                                        ● Inner Mongolia exhibition hall<br>
+                                        ● Dazhao Wuliang Temple<br>
+                                        ● Qingcheng Park
+                                    </b>
+                                    <br>
+                                </div>
+
+                                <div style="width:100%;">
+                                    <img src="./images/展览馆.jpeg" alt="" style="width: 45%;">
+                                    <img src="./images/无量寺.jpeg" alt="" style="width: 45%;">
+                                    <img src="./images/青城公园.png" alt="" style="width: 30%;">
+                                </div>
+                                <div style="text-align: left;margin-left: 5%;">
+                                    <p style="font-weight: bold;">Hohhot Gourmet </p>
+                                    <b class="food_text">
+                                        ● Roasted Whole Lamb<br>
+                                        ● Boiled sheep with ice<br>
+                                        ● Barbecue
+                                    </b>
+                                    <br>
+                                </div>
+                                <br>
+                                <div>
+                                    <img src="./images/烤全羊.png" alt="" style="width: 45%;">
+                                    <img src="./images/冰煮羊.jpeg" alt="" style="width: 45%;">
+                                    <img src="./images/烧烤.jpeg" alt="" style="width: 30%;">
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+<script src="./Home.js"></script>
+
+</html>
