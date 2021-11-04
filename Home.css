@@ -87,11 +87,11 @@ p{
 }
 b{
     font-size: 1.7em;
-
-    font-family:'Times New Roman', Times, serif;
+    font-weight: normal;
 }
 .food_text{
     font-size: 1.5em;
+    font-weight: normal;
 }
 
 h3{
