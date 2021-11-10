@@ -20,6 +20,22 @@ Internetware 2022 will be held June 11-12 in Huhhot, China. We solicit submissio
 * Software engineering for/with Big data
 * Software engineering for/with Artificial Intelligence
 
+### Submission
+
+Papers must be submitted electronically through [EasyChair](https://easychair.org/conferences/?conf=internetware2022). Please specify the track of your submission. All submissions must be in English and in PDF format. Submissions that do not comply with the above instructions will be desk rejected without review. Please use the ACM Master article template, as can be obtained from the [ACM Proceedings Template](https://www.acm.org/publications/proceedings-template) pages.
+
+Following types of papers are welcomed to Internetware 2022:
+
+* **<u>Full papers</u>**, which must not exceed 10 pages for all text, figures, tables, and references. 
+* **<u>Short papers</u>**, which must not exceed 6 pages for all text, figures, tables, and references. 
+* **<u>Short papers (no proceeding)</u>**. The requirements are the same as short papers. Authors are required to give oral presentations. However, papers in this track will not appear in the proceedings.
+
+Important dates:
+
+* Submission Deadline: February 20, 2022
+* Notification of Acceptance: April 17, 2022
+* Camera-Ready Version: April 30, 2022
+
 ### Special Tracks
 
 Internetware 2022 organized several special tracks in collaboration with multiple top-tier transactions/journals. 
@@ -27,24 +43,6 @@ Papers submitted into the main track will be selected and invited to submit an e
 
 Papers submitted and accepted by the corresponding special tracks will be published in the Internetware 2022 proceeding firstly, and be invited to submit an extended version of their papers to the corresponding journals. All the extended submissions will be evaluated following the guidelines set by the corresponding journal. Only those satisfying all the criteria will be accepted for the journal publication.
 
-### Submission
-
-Papers must be submitted electronically through [EasyChair](https://easychair.org/conferences/?conf=internetware2022). Please specify the track for your submission.
-
-All submissions must be in English and in PDF format. Submissions that do not comply with the above instructions will be desk rejected without review.  Please use the ACM Master article template, as can be obtained from the [ACM Proceedings Template](https://www.acm.org/publications/proceedings-template) pages.
-
-Following types of papers are welcomed:
-
-* **<u>Full papers</u>**, which must not exceed 10 pages for all text, figures, tables, and references. 
-* **<u>Short papers</u>**, which must not exceed 6 pages for all text, figures, tables, and references. 
-* **<u>Short papers (no proceeding)</u>**. The requirements are the same as short papers. Authors are required to give oral presentations. However, papers in this track will not appear in the proceedings.
-
-
-### Important Dates
-
-* Submission Deadline: February 20, 2022
-* Notification of Acceptance: April 17, 2022
-* Camera-Ready Version: April 30, 2022
 
 <div style="display: none;">
  <h3>Camera-Ready Instructions</h3>
