@@ -26,7 +26,6 @@ Following types of papers are welcomed to Internetware 2022:
 
 * **<u>Technical research papers</u>** for solid technical contributions to Internetware. Technical research papers must not exceed 10 pages for all text, figures, tables, and references. 
 * **<u>Short papers</u>** for early announcements on breaking research results. Short papers must not exceed 6 pages for all text, figures, tables, and references. 
-* **<u>Short papers (no proceeding)</u>**. The requirements are the same as short papers. Authors are required to give oral presentations. However, papers in this track will not appear in the proceedings.
 
 Best papers submitted to the technical research track will be selected and invited to submit an extended version to the [Journal of Computer Science and Technology](https://www.springer.com/journal/11390). All extended submissions will be evaluated following the guidelines of the corresponding journal. Only those satisfying all the criteria will be accepted for the journal publication.
 
