@@ -7,7 +7,7 @@
 
 ### Welcome to Internetware 2022!
 
-Internetware 2022, the *13rd Asia-Pacific Symposium on Internetware*, provides a forum for researchers and practitioners to discuss the trending software technologies in the Internet era.
+Internetware 2022, the *13th Asia-Pacific Symposium on Internetware*, provides a forum for researchers and practitioners to discuss the trending software technologies in the Internet era.
 
 -----
 
