@@ -42,11 +42,9 @@
 * Lingxiao Jiang, Singapore Management University, Singapore
 * Yanyan Jiang, Nanjing University, China
 * Yu Jiang, Tsinghua University, China
-* Yuanfang Li, Monash University, Australia
 * Hui Liu, Beijing Institute of Technology, China
 * David Lo, Singapore Management University, Singapore
 * Lei Ma, University of Alberta, Canada
-* Xiaoxing Ma, Nanjing University, China
 * Hidehiko Masuhara, Tokyo Institute of Technology, Japan
 * Hausi Mller, University of Victoria, Canada
 * Michail Papadakis, University of Luxembourg, Luxembourg
@@ -54,7 +52,6 @@
 * Xin Peng, Fudan University, China
 * Shengchao Qin, Teesside University, UK
 * Jun Sun, Singapore Management University, Singapore
-* Ting Su, East China Normal University, China
 * Kenji Tei, Waseda University, Japan
 * Jingyi Wang, Zhejiang University, China
 * Anton Wijs, Eindhoven University of Technology, Netherands
@@ -62,7 +59,6 @@
 * Tao Xie, Peking University, China
 * Xiaofei Xie, Nanyang Technological University, Singapore
 * Jifeng Xuan, Wuhan University, China
-* Fuyuan Zhang, MPI-SWS, Germany
 * Chenyi Zhang, Jinan University, China
 * Jie Zhang, University College London, UK
 * Haiyan Zhao, Peking University, China
@@ -90,6 +86,7 @@
 * Yang Feng, Nanjing University, China
 
 ### Publicity and Social Media Chair
+
 * Lei Ma, Kyushu University, Japan
 * Yanyan Jiang, Nanjing University, China
 * Shaopeng Wang, Inner Mongolia University, China
