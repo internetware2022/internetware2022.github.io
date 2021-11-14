@@ -45,12 +45,9 @@
 * Hui Liu, Beijing Institute of Technology, China
 * David Lo, Singapore Management University, Singapore
 * Lei Ma, University of Alberta, Canada
-* Hidehiko Masuhara, Tokyo Institute of Technology, Japan
 * Hausi Mller, University of Victoria, Canada
-* Michail Papadakis, University of Luxembourg, Luxembourg
 * Yu Pei, HK Polytechnic University, China
 * Xin Peng, Fudan University, China
-* Shengchao Qin, Teesside University, UK
 * Jun Sun, Singapore Management University, Singapore
 * Kenji Tei, Waseda University, Japan
 * Jingyi Wang, Zhejiang University, China
@@ -82,11 +79,9 @@
 
 ### Proceedings Chair
 
-* Lingling Fan, Nankai University, China
 * Yang Feng, Nanjing University, China
 
 ### Publicity and Social Media Chair
 
-* Lei Ma, Kyushu University, Japan
 * Yanyan Jiang, Nanjing University, China
 * Shaopeng Wang, Inner Mongolia University, China
