@@ -31,10 +31,9 @@
 
 * Chunyang Chen, Monash University, Australia
 * Liqian Chen, National University of Defense Technology, China
-* Yang Liu, Nanyang Technological University, Singapore
 * Taolue Chen, University of London, UK
 * Yuting Chen, Shanghai Jiao Tong University, China
-* Zhengbang Chen, National University of Defense Technology, China
+* Zhenbang Chen, National University of Defense Technology, China
 * Yang Feng, Nanjing University, China
 * Cuiyun Gao, Nanyang Technological University, Singapore
 * Fuyuki Ishikawa, National Institute of Informatics, Japan
@@ -43,11 +42,14 @@
 * Yanyan Jiang, Nanjing University, China
 * Yu Jiang, Tsinghua University, China
 * Hui Liu, Beijing Institute of Technology, China
+* Yang Liu, Nanyang Technological University, Singapore
 * David Lo, Singapore Management University, Singapore
 * Lei Ma, University of Alberta, Canada
-* Hausi Mller, University of Victoria, Canada
-* Yu Pei, HK Polytechnic University, China
+* Hidehiko Masuhara, Tokyo Institute of Technology, Japan
+* Hausi A. Mller, University of Victoria, Canada
+* Yu Pei, The Hong Kong Polytechnic University, China
 * Xin Peng, Fudan University, China
+* Shengchao Qin, Teesside University, UK
 * Jun Sun, Singapore Management University, Singapore
 * Kenji Tei, Waseda University, Japan
 * Jingyi Wang, Zhejiang University, China
@@ -58,11 +60,11 @@
 * Jifeng Xuan, Wuhan University, China
 * Chenyi Zhang, Jinan University, China
 * Jie Zhang, University College London, UK
+* Yuxia Zhang, Beijing Institute of Technology, China
 * Haiyan Zhao, Peking University, China
 * Junfeng Zhao, Inner Mongolia University, China
 * Minghui Zhou, Peking University, China
 * Zhiqiang Zuo, Nanjing University, China
-* Yuxia Zhang, Beijing Institute of Technology, China
 
 ### Local Arrangement Co-Chairs
 
