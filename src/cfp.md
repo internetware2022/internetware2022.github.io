@@ -28,11 +28,11 @@ Following types of papers are welcomed to Internetware 2022:
 * **<u>Short papers</u>** for early announcements on breaking research results. Short papers must not exceed 6 pages for all text, figures, tables, and references. 
 * **<u>Short papers (no proceeding)</u>**. The requirements are the same as short papers. Authors are required to give oral presentations. However, papers in this track will not appear in the proceedings.
 
-Best papers submitted to the technical research track will be selected and invited to submit an extended version to the [Journal of Computer Science and Technology](https://www.springer.com/journal/11390). All the extended submissions will be evaluated following the guidelines set by the corresponding journal. Only those satisfying all the criteria will be accepted for the journal publication.
+Best papers submitted to the technical research track will be selected and invited to submit an extended version to the [Journal of Computer Science and Technology](https://www.springer.com/journal/11390). All extended submissions will be evaluated following the guidelines of the corresponding journal. Only those satisfying all the criteria will be accepted for the journal publication.
 
 ### Special Tracks
 
-Best papers submitted to a special track will be first accept to Internetware 2022 proceedings, and then be invited to submit an extended version to the corresponding journals. All the extended submissions will be evaluated following the guidelines set by the corresponding journal. Only those satisfying all the criteria will be accepted for the journal publication.
+Best papers submitted to a special track will be first accept to Internetware 2022 proceedings, and then be invited to submit an extended version to the corresponding journals. All extended submissions will be evaluated following the guidelines of the corresponding journal. Only those satisfying all the criteria will be accepted for the journal publication.
 
 (To be announced)
 
@@ -46,10 +46,6 @@ Important dates:
 * Submission Deadline: February 20, 2022
 * Notification of Acceptance: April 17, 2022
 * Camera-Ready Version: April 30, 2022
-
-### Special Tracks
-
-
 
 <div style="display: none;">
  <h3>Camera-Ready Instructions</h3>
