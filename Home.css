@@ -75,15 +75,11 @@ body {
 td{
     border: 0.1em solid rgb(223, 217, 217);
 }
-p{
-    font-size: 1.7em;
-    margin-bottom: 20px;
-}
-b{
+b {
     font-size: 1.7em;
     font-weight: normal;
 }
-.food_text{
+.food_text {
     font-size: 1.5em;
     font-weight: normal;
 }
@@ -101,7 +97,11 @@ h4 {
 li {
     font-size: 1.7em;
 }
+p {
+    margin-bottom: 20px;
+}
 p, li {
+    font-size: 1.7em;
     line-height: 175%;
     color: #555;
     font-family: 'Roboto', 'Helvetica', 'Arial', serif;
