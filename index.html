@@ -8,86 +8,65 @@
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
     <title>Internetware 2022</title>
     <link href="https://fonts.font.im/css?family=Lato|Roboto" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="./Home.css" />
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="Home.css" />
     <link rel="shortcut icon" href="images/internetware-logo.png">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 </head>
 
-<body id="text">
-    <div id="total">
-        <br>
-        <br>
-        <br>
-        <div class="upper">
-            <div class="title">
-                <div class="title2">
-                    <div style="width: 11%;">
-                        <img src="./images/internetware-logo.png" alt="" style="width:11em;height:11em;">
+<body>
+    <div class="container mx-auto px-6 space-y-6 max-w-screen-lg pt-10">
+        <div class="flex px-6">
+            <img class="float-left" src="./images/internetware-logo.png" style="height:8em" >
+            <div class="pl-4" style="width:60%">
+                <h1 class="pt-4">Internetware 2022</h1>
+                <h2>Hohhot, China, June 11-12, 2022</h2>
+            </div>
+            <img class="float-right" src="./images/internetware-name.jpg" style="height:8em" >
+        </div>
+        <div class="flex flex-col">
+            <div class="flex flex-flow">
+                <div class="flex-none">
+                    <div class="choice" id="total"> 
+                        <button id="b1" class="Button" v-on:click="changx(1)" style="background-color: rgb(42, 75, 182);color: white;">Home</button>
+                        <button id="b2" class="Button" v-on:click="changx(2)">Program</button>
+                        <button id="b3" class="Button" v-on:click="changx(3)">Keynote</button>
+                        <button id="b4" class="Button" v-on:click="changx(4)">Call For Papers</button>
+                        <button id="b5" class="Button" v-on:click="changx(5)">Important Dates</button>
+                        <button id="b6" class="Button" v-on:click="changx(6)">Committee</button>
+                        <button id="b7" class="Button" v-on:click="changx(7)">Venue and Access</button>
+                        <button id="b8" class="Button" v-on:click="changx(8)">Accommodation</button>
+                        <button id="b9" class="Button" v-on:click="changx(9)">Travel and Foods</button>
                     </div>
-                    <div style="width: 59%;">
-                        <br>
-                        <b class="title_text">Internetware 2022</b>
-                        <br>
-                        <b class="title_text2">Huhhot,&nbsp; China,&nbsp; June 11-12,&nbsp; 2022</b>
-                    </div>
-
-                    <div style="text-align: right;width: 30%;">
-                        <img class="picture2" src="./images/internetware-name.jpg" alt="" style="height:10em;">
+                    <br>
+                    <div class="choice">
+                        <div class="Button">Sponsors</div>
+                        <img src="./images/Sponsors.png" alt="" style="width: 100%;">
                     </div>
                 </div>
-            </div>
-            <br>
-            <br>
-        </div>
-        <div class="lower">
-            <div style="display: inline-block;width: 81%;">
-                <br>
-                <br>
-                <div style="display: inline-block;width: 90%;">
-                    <div style="display: flex;width: 100%;">
-                        <div style="width: 23%;">
-                            <div class="choice">
-                                <button id="b1" class="Button" v-on:click="changx(1)"
-                                    style="background-color: rgb(42, 75, 182);color: white;">Home</button>
-                                <button id="b2" class="Button" v-on:click="changx(2)">Program</button>
-                                <button id="b3" class="Button" v-on:click="changx(3)">Keynote</button>
-                                <button id="b4" class="Button" v-on:click="changx(4)">Call For Papers</button>
-                                <button id="b5" class="Button" v-on:click="changx(5)">Important Dates</button>
-                                <button id="b6" class="Button" v-on:click="changx(6)">Committee</button>
-                                <button id="b7" class="Button" v-on:click="changx(7)">Venue and Access</button>
-                                <button id="b8" class="Button" v-on:click="changx(8)">Accommodation</button>
-                                <button id="b9" class="Button" v-on:click="changx(9)" style="margin-bottom: 2%;">Travel
-                                    Information and
-                                    Foods</button>
-                            </div>
-                            <br>
-                            <div class="sign">
-                                <p>Sponsors</p>
-                                <img src="./images/Sponsors.png" alt="" style="width: 100%;">
-                            </div>
-                        </div>
-                            <div id="d1" class="d pages" style="display: block;"> <div style="width: 100%;justify-content: space-around;display: flex; margin-bottom: 2em;">
-    <img class="Homeimg" src="./images/Home01.jpeg" alt="">
-    <img class="Homeimg" src="./images/Home02.jpeg" alt="">
-    <img class="Homeimg" src="./images/Home03.jpeg" alt="">
-    <img class="Homeimg" src="./images/Home04.jpeg" alt="">
+                <div class="flex-1"> 
+                    <div id="d1" class="d pages" style="display: block;"> <div class="flex flex-flow space-x-4 pb-6">
+  <img class="w-40 rounded" src="./images/Home01.jpeg">
+  <img class="w-40 rounded" src="./images/Home02.jpeg">
+  <img class="w-40 rounded" src="./images/Home03.jpeg">
+  <img class="w-40 rounded" src="./images/Home04.jpeg">
 </div>
 
 <h3>Welcome to Internetware 2022!</h3>
 <p>Internetware 2022, the <em>13th Asia-Pacific Symposium on Internetware</em>, provides a forum for researchers and practitioners to discuss the trending software technologies in the Internet era.</p>
-<hr />
 <p>Internet provides an open global infrastructure for exchanging and sharing resources for people all over the world. The rapid development and the wide application of Internet make it become a new mainstream platform for software to be used, developed, deployed, and executed. With the vision of “Internet as a Computer”, many application styles such as pervasive computing, grid computing, service computing, and cloud computing emerged in this open and dynamic environment.</p>
 <p>To support new forms of applications and accommodate the fundamental changes of the underlying supporting platform, software technologies such as service-oriented architecture are proposed for current practices. However, these popular technologies are far from systematic and complete because no uniform software methodology and technology system like the object-oriented one is provided.</p>
 <p>Software in the Internet era should autonomously, cooperatively, situationally, emergently, and trustworthily adapt to the new environment. The software entities dispersed on distributed nodes over the Internet, which evolved from objects in object-oriented methodology to software components (component-based software development), now are further turned into self-contained, autonomous and adaptive software services in service-oriented computing of state-of-arts. These software entities are coordinated statically and dynamically in various interaction styles (passively and actively) such as integration, cooperation, and orchestration to achieve flexible design objectives. So a so-called “software-web” instead of information-web is weaved. This software-web as a whole can perceive the changes of open, dynamic, and uncertain environments and respond to them in the way of transforming architectures. Furthermore, the flexible design objective of the software-web is reflected by its exhibiting several compatible goal-directed behaviors according to its up-to-date knowledge about the outside environment.</p>
 <p>Therefore, a portmanteau term “Internetware” is used to denote the future software-web in open and dynamic environment, which can be defined as follows: an Internetware system is a software system consists of the self-contained, autonomous entities situated in the distributed nodes of Internet and the coordinators connecting these entities statically and dynamically in various kinds of interaction styles (passively and actively). As a whole, an Internetware system is able to perceive the changes of open and dynamic environment such as Internet, respond to the changes in the way of architectural transformation, and exhibit context-aware, adaptive and trustworthy behaviors in the open and dynamic environment in order to meet its flexible design objectives. Internetware challenges many aspects of software technologies, from operating platforms, programming models, to engineering approaches, etc.</p> </div>
-                            <div id="d2" class="d pages"> <h3>Keynotes</h3>
+                    <div id="d2" class="d pages"> <h3>Keynotes</h3>
 <p>TBD</p> </div>
-                            <div id="d3" class="d pages"> <h3>Program</h3>
+                    <div id="d3" class="d pages"> <h3>Program</h3>
 <p>TBD</p> </div>
-                            <div id="d4" class="d pages"> <h3>Call for Papers</h3>
+                    <div id="d4" class="d pages"> <h3>Call for Papers</h3>
 <p>Internet is open, dynamic, and meets a constantly changing environment. Software, being architected like the Internet, developed with the Internet, operated on the Internet, connects the human, cyber, and physical world. Internetware ought to be autonomous, cooperative, situational, evolvable, emergent, and trustworthy, but these requirements pose unique challenges for software technologies to support Internetware's construction, deployment, and use.</p>
 <p>This symposium aims to provide an interactive forum where researchers and professionals from multiple disciplines and domains meet and exchange ideas to explore and address the challenges brought by Internetware.</p>
-<p>Internetware 2022 will be held June 11-12 in Huhhot, China. We solicit submissions describing original and unpublished results of theoretical, empirical, conceptual, and experimental software engineering research related to Internetware. Topics of interests include but are not limited to:</p>
+<p>Internetware 2022 will be held June 11-12 in Hohhot, China. We solicit submissions describing original and unpublished results of theoretical, empirical, conceptual, and experimental software engineering research related to Internetware. Topics of interests include but are not limited to:</p>
 <ul>
 <li>Novel software paradigm for Internetware</li>
 <li>Modeling and implementation of Internetware</li>
@@ -137,13 +116,13 @@
      ready versions. All accepted contributions will be published in the
      Internetware2022 electronic proceedings and in the ACM Digital Library. </p>
 </div> </div>
-                            <div id="d5" class="d pages"> <h3>Important Dates</h3>
+                    <div id="d5" class="d pages"> <h3>Important Dates</h3>
 <ul>
 <li>Submission Deadline: February 20, 2022</li>
 <li>Notification of Acceptance: April 17, 2022</li>
 <li>Camera-Ready Version: April 30, 2022</li>
 </ul> </div>
-                            <div id="d6" class="d pages"> <h3>Steering Committee</h3>
+                    <div id="d6" class="d pages"> <h3>Steering Committee</h3>
 <h4>Co-Chairs</h4>
 <ul>
 <li>Hong Mei, Peking University, China</li>
@@ -229,7 +208,7 @@
 <li>Yanyan Jiang, Nanjing University, China</li>
 <li>Shaopeng Wang, Inner Mongolia University, China</li>
 </ul> </div>
-                            <div id="d7" class="d pages"> <h3>Conference Venue Information</h3>
+                    <div id="d7" class="d pages"> <h3>Conference Venue Information</h3>
 <p><img alt="" src="images/酒店概况.jpg" /></p>
 <p>The conference venue will be The Inner Mongolia Xincheng Hotel. Xincheng Hotel, situated in the center of Hohhot, the capital city of Inner Mongolia Autonomous Region, covers an area of 121,000 square meters. Here you can find a peaceful and beautiful environment and gardens carefully planted in the midst of modern buildings. On this wonderful and rich field, it is equipped with modern facilities such as lodging, food and beverage, entertainment, SPA, exhibition and club as well as other devices. In addition, there are more than 600 beds, over 20 meeting rooms, 45 restaurants, bars and banquet halls, an 18-lane bowling alley, video games and other kinds of entertainment and recreation facilities, which create a wonderful and pleasant place for people.  Xincheng Hotel has also been equipped with an intranet and internet system, enabling many business transactions to be conveniently conducted online, such as reservations, receptions, reception, registration, enquiries, monitoring, fire control, checking in and checking out, which will assist out guests in utilizing fast, safe, and high-quality service.</p>
 <div style="color: rgb(0, 183, 255);">
@@ -247,7 +226,7 @@
         <img src="./images/map2.png" alt="" style="width: 90%;">
     </div>
 </div> </div>
-                            <div id="d8" class="d pages"> <h3>Accommodation</h3>
+                    <div id="d8" class="d pages"> <h3>Accommodation</h3>
 <p>TBD</p>
 <!--                                <p style="font-size: 20px;color: #000;">Hotel Recommendation:</p>
 <p style="font-size: 3px;"></p>
@@ -294,7 +273,7 @@
     or email to gaoyongqiang@imu.edu.cn , information content: Name + company + mobile
     phone number + number of rooms + check-in time + departure time.<br>
 </div>--> </div>
-                            <div id="d9" class="d pages"> <h3>Travel Information and Food</h3>
+                    <div id="d9" class="d pages"> <h3>Travel Information and Food</h3>
 <h3>The Hohhot City</h3>
 <p><img id="p1" src="./images/呼和浩特.jpg" width="100%"></p>
 <ul>
@@ -314,7 +293,6 @@
 <p><img src="./images/烤全羊.png" alt="" style="width: 100%;"></p>
 <p><img src="./images/冰煮羊.jpeg" alt="" style="width: 100%;"></p>
 <p><img src="./images/烧烤.jpeg" alt="" style="width: 100%;"></p> </div>
-                    </div>
                 </div>
             </div>
         </div>

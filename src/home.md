@@ -1,15 +1,13 @@
-<div style="width: 100%;justify-content: space-around;display: flex; margin-bottom: 2em;">
-    <img class="Homeimg" src="./images/Home01.jpeg" alt="">
-    <img class="Homeimg" src="./images/Home02.jpeg" alt="">
-    <img class="Homeimg" src="./images/Home03.jpeg" alt="">
-    <img class="Homeimg" src="./images/Home04.jpeg" alt="">
+<div class="flex flex-flow space-x-4 pb-6">
+  <img class="w-40 rounded" src="./images/Home01.jpeg">
+  <img class="w-40 rounded" src="./images/Home02.jpeg">
+  <img class="w-40 rounded" src="./images/Home03.jpeg">
+  <img class="w-40 rounded" src="./images/Home04.jpeg">
 </div>
 
 ### Welcome to Internetware 2022!
 
 Internetware 2022, the *13th Asia-Pacific Symposium on Internetware*, provides a forum for researchers and practitioners to discuss the trending software technologies in the Internet era.
-
------
 
 Internet provides an open global infrastructure for exchanging and sharing resources for people all over the world. The rapid development and the wide application of Internet make it become a new mainstream platform for software to be used, developed, deployed, and executed. With the vision of “Internet as a Computer”, many application styles such as pervasive computing, grid computing, service computing, and cloud computing emerged in this open and dynamic environment.
 

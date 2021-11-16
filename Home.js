@@ -34,15 +34,3 @@ new Vue({
         }
     }
 });
-
-var text = document.getElementById('text');
-window.getComputedStyle(text, null);
-//获取可视窗口的大小调整
-var width = window.innerWidth;
-var height = window.innerHeight;
-if (width > 400) {
-    text.style.fontSize = 10 + 'px';
-}
-else {
-    text.style.fontSize = 3 + 'px';
-}
