@@ -31,6 +31,8 @@ new Vue({
                     b.style.color = 'rgb(42, 75, 182)'
                 }
             }
+            var d = document.getElementById("d" + 10);
+            d.style.display = 'none'
         },
         changx2: function (x) {
             for (i = 1; i <= 10; i++) {
