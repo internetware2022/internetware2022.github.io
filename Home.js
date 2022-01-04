@@ -31,6 +31,17 @@ new Vue({
                     b.style.color = 'rgb(42, 75, 182)'
                 }
             }
+        },
+        changx2: function (x) {
+            for (i = 1; i <= 10; i++) {
+                var d = document.getElementById("d" + i);
+                if (i == 10) {
+                    d.style.display = 'block'
+                }
+                else {
+                    d.style.display = 'none'
+                }
+            }
         }
     }
 });
