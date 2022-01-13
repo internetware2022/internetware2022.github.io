@@ -1,9 +1,9 @@
 ### Special Sections/Issues
 
-We are excited to announce that Internetware'22 have two Journal special sections:
+We are excited to announce two special sections for Internetware'22:
 
 - Special Section/Issue on Intelligent Software Engineering
-- Special Section/Issue on Evolving Large-scale systems
+- Special Section/Issue on Evolving Large-scale Systems
 
 ### 1. Special Section/Issue on Intelligent Software Engineering
 
@@ -41,9 +41,9 @@ We invite the submission of high-quality papers describing original and signific
 
 #### Submission
 
-To speed up the review process, and to encourage people to join Internetware 2022 (https://internetware2022.github.io/) conference (in Hohhot, China), we setup two rounds of reviews: a Internetware conference round, and a journal round.
+To speed up the review process, and to encourage people to join the [Internetware 2022](https://internetware2022.github.io/) conference (in Hohhot, China), we setup two rounds of reviews: an Internetware conference round, and a journal round.
 
-In the Internetware conference round, authors are encouraged to submit their manuscripts to the Easychair submission site https://easychair.org/my/conference?conf=internetware2022, You should choose “Intelligent Software Engineering Track” in Easychair. The submissions must have not been previously published or considered for publication elsewhere. Each submission must not exceed 10 pages for all text, figures, tables, and references. All submissions must be in English and in PDF format. Please use the ACM Master article template, as can be obtained from the ACM Proceedings Template pages. Each submission will receive at least three high-quality reviews from our PCs. Each accepted submission must be accompanied by a registration of at least one author and presented at Internetware 2022.
+In the Internetware conference round, authors are encouraged to submit their manuscripts to the [Easychair submission site](https://easychair.org/my/conference?conf=internetware2022), You should choose “Intelligent Software Engineering Track” in Easychair. The submissions must have not been previously published or considered for publication elsewhere. Each submission must not exceed 10 pages for all text, figures, tables, and references. All submissions must be in English and in PDF format. Please use the ACM Master article template, as can be obtained from the ACM Proceedings Template pages. Each submission will receive at least three high-quality reviews from our PCs. Each accepted submission must be accompanied by a registration of at least one author and presented at Internetware 2022.
 
 And in the journal round, only the selected best papers will be invited to submit their revisions to the Automated Software Engineering journal. You should choose SI:TBD. The authors should carefully address the comments from the Internetware conference reviewers and prepare a response letter. And these papers will be reviewed by the same three reviewers. Note that only the selected best papers from the Internetware conference round will get invited for possible journal publication.
 

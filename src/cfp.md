@@ -33,7 +33,10 @@ Best papers submitted to the technical research track will be selected and invit
 
 Best papers submitted to a special track will be first accept to Internetware 2022 proceedings, and then be invited to submit an extended version to the corresponding journals. All extended submissions will be evaluated following the guidelines of the corresponding journal. Only those satisfying all the criteria will be accepted for the journal publication.
 
-(To be announced)
+This year's two special section/issues:
+
+- [Special Section/Issue on intelligent software engineering](#special)
+- [Special Section/Issue on evolving large-scale systems](#special)
 
 ### Submission
 

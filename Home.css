@@ -28,6 +28,7 @@ h4 {
 }
 .button {
     display: block;
+    text-decoration: none;
     color: rgba(61, 89, 182);
     background-color: rgb(230, 230, 230);
     border-radius: 0.4em;
@@ -77,4 +78,8 @@ p + h4, ul + h4, ol + h4, ul + p {
 li {
     list-style-type: square;
     margin-left: 1.25em;
+}
+a {
+    text-decoration: underline;
+    color:rgb(42, 75, 182);
 }
