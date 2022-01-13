@@ -40,7 +40,7 @@
                 </div>
                 <div class="flex-1"> 
                     {% for sec in sections %}
-                        <div id="d-{{ sec.id }}" class="d pages"> {{ sec.html | safe }} </div>
+                        <div id="d-{{ sec.id }}" class="d pages" style="display: none;"> {{ sec.html | safe }} </div>
                     {% endfor %}
                 </div>
             </div>
