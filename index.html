@@ -14,7 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 </head>
 
-<body onhashchange="update()">
+<body onhashchange="location.reload()">
     <div class="container mx-auto px-6 space-y-6 max-w-screen-lg pt-10">
         <div class="flex px-6">
             <img class="float-left" src="./images/internetware-logo.png" style="height:8em" >
@@ -394,44 +394,9 @@
     <script>
         function b(id) { return document.getElementById('b-' + id); }
         function d(id) { return document.getElementById('d-' + id); }
-        function update() {
-            
-            b('home').className = 'button';
-            d('home').style.display = 'none';
-            
-            b('program').className = 'button';
-            d('program').style.display = 'none';
-            
-            b('keynote').className = 'button';
-            d('keynote').style.display = 'none';
-            
-            b('cfp').className = 'button';
-            d('cfp').style.display = 'none';
-            
-            b('special').className = 'button';
-            d('special').style.display = 'none';
-            
-            b('dates').className = 'button';
-            d('dates').style.display = 'none';
-            
-            b('committee').className = 'button';
-            d('committee').style.display = 'none';
-            
-            b('venue').className = 'button';
-            d('venue').style.display = 'none';
-            
-            b('travel').className = 'button';
-            d('travel').style.display = 'none';
-            
-            b('accommodation').className = 'button';
-            d('accommodation').style.display = 'none';
-            
-
-            var id = window.location.hash.substring(1) || 'home';
-            b(id).className = 'button button-selected';
-            d(id).style.display = 'block';
-        }
-        update();
+        var id = window.location.hash.substring(1) || 'home';
+        b(id).className = 'button button-selected';
+        d(id).style.display = 'block';
     </script>
 </body>
 </html>

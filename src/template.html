@@ -14,7 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 </head>
 
-<body onhashchange="update()">
+<body onhashchange="location.reload()">
     <div class="container mx-auto px-6 space-y-6 max-w-screen-lg pt-10">
         <div class="flex px-6">
             <img class="float-left" src="./images/internetware-logo.png" style="height:8em" >
@@ -49,17 +49,9 @@
     <script>
         function b(id) { return document.getElementById('b-' + id); }
         function d(id) { return document.getElementById('d-' + id); }
-        function update() {
-            {% for sec in sections %}
-            b('{{ sec.id }}').className = 'button';
-            d('{{ sec.id }}').style.display = 'none';
-            {% endfor %}
-
-            var id = window.location.hash.substring(1) || 'home';
-            b(id).className = 'button button-selected';
-            d(id).style.display = 'block';
-        }
-        update();
+        var id = window.location.hash.substring(1) || 'home';
+        b(id).className = 'button button-selected';
+        d(id).style.display = 'block';
     </script>
 </body>
 </html>
