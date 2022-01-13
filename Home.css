@@ -13,6 +13,7 @@ h2 {
 h3 {
     font-size: 1.4em;
     padding-bottom: 10px;
+    margin-block-start: 0em;
 }
 h4 {
     font-size: 1.3em;
@@ -25,7 +26,8 @@ h4 {
     border-radius: 0.5em;
     text-align: center;
 }
-.Button{
+.button {
+    display: block;
     color: rgba(61, 89, 182);
     background-color: rgb(230, 230, 230);
     border-radius: 0.4em;
@@ -36,13 +38,15 @@ h4 {
     border: 0;
     font-weight: 500;
 }
-.Homeimg{
-    width: 20%;
+.button-selected {
+    background-color: rgb(42, 75, 182);
+    color: rgb(255,255,255);
 }
+
 .scroll{
     overflow: scroll;
 }
-td{
+td {
     border: 0.1em solid rgb(223, 217, 217);
 }
 b {
@@ -52,13 +56,6 @@ b {
     font-weight: normal;
 }
 
-h3 {
-    margin-block-start: 0em;
-}
-h4 {
-}
-li {
-}
 p {
     margin-bottom: 20px;
 }
@@ -70,13 +67,12 @@ p, li {
 p + h3, ul + h3, ol + h3 {
     margin-top: 40px;
 }
-p + h4, ul + h4, ol + h4 {
+p + h4, ul + h4, ol + h4, ul + p {
     margin-top: 20px;
 }
 .d {
     text-align: justify;
     margin-left: 2em;
-    display: none;
 }
 li {
     list-style-type: square;

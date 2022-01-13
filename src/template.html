@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
     <title>Internetware 2022</title>
     <link href="https://fonts.font.im/css?family=Lato|Roboto" rel="stylesheet">
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
@@ -15,7 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 </head>
 
-<body>
+<body onhashchange="update()">
     <div class="container mx-auto px-6 space-y-6 max-w-screen-lg pt-10">
         <div class="flex px-6">
             <img class="float-left" src="./images/internetware-logo.png" style="height:8em" >
@@ -29,15 +28,9 @@
             <div class="flex flex-flow">
                 <div class="flex-none">
                     <div class="choice" id="total"> 
-                        <button id="b1" class="Button" v-on:click="changx(1)" style="background-color: rgb(42, 75, 182);color: white;">Home</button>
-                        <button id="b2" class="Button" v-on:click="changx(2)">Program</button>
-                        <button id="b3" class="Button" v-on:click="changx(3)">Keynote</button>
-                        <button id="b4" class="Button" v-on:click="changx(4)">Call For Papers</button>
-                        <button id="b5" class="Button" v-on:click="changx(5)">Important Dates</button>
-                        <button id="b6" class="Button" v-on:click="changx(6)">Committee</button>
-                        <button id="b7" class="Button" v-on:click="changx(7)">Venue and Access</button>
-                        <button id="b8" class="Button" v-on:click="changx(8)">Accommodation</button>
-                        <button id="b9" class="Button" v-on:click="changx(9)">Travel and Foods</button>
+                        {% for sec in sections %}
+                            <a id="b-{{ sec.id }}" class="button" href="#{{ sec.id }}">{{ sec.desc }}</a>
+                        {% endfor %}
                     </div>
                     <br>
                     <div class="choice">
@@ -46,19 +39,27 @@
                     </div>
                 </div>
                 <div class="flex-1"> 
-                    <div id="d1" class="d pages" style="display: block;"> {{ home }} </div>
-                    <div id="d2" class="d pages"> {{ keynote }} </div>
-                    <div id="d3" class="d pages"> {{ program }} </div>
-                    <div id="d4" class="d pages"> {{ cfp }} </div>
-                    <div id="d5" class="d pages"> {{ dates }} </div>
-                    <div id="d6" class="d pages"> {{ committee }} </div>
-                    <div id="d7" class="d pages"> {{ venue }} </div>
-                    <div id="d8" class="d pages"> {{ accommodation }} </div>
-                    <div id="d9" class="d pages"> {{ travel }} </div>
+                    {% for sec in sections %}
+                        <div id="d-{{ sec.id }}" class="d pages"> {{ sec.html | safe }} </div>
+                    {% endfor %}
                 </div>
             </div>
         </div>
     </div>
-    <script src="./Home.js"></script>
+    <script>
+        function b(id) { return document.getElementById('b-' + id); }
+        function d(id) { return document.getElementById('d-' + id); }
+        function update() {
+            {% for sec in sections %}
+            b('{{ sec.id }}').className = 'button';
+            d('{{ sec.id }}').style.display = 'none';
+            {% endfor %}
+
+            var id = window.location.hash.substring(1) || 'home';
+            b(id).className = 'button button-selected';
+            d(id).style.display = 'block';
+        }
+        update();
+    </script>
 </body>
 </html>
