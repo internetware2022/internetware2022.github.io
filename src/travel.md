@@ -12,7 +12,7 @@
 
 <img src="./images/无量寺.jpeg" alt="" style="width: 100%;">
 
-<img src="./images/青城公园.png" alt="" style="width: 100%;">
+<img src="./images/青城公园.jpeg" alt="" style="width: 100%;">
 
 ### Hohhot Gourmet
 

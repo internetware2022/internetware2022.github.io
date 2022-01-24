@@ -45,8 +45,7 @@
 * Yang Liu, Nanyang Technological University, Singapore
 * David Lo, Singapore Management University, Singapore
 * Lei Ma, University of Alberta, Canada
-* Hidehiko Masuhara, Tokyo Institute of Technology, Japan
-* Hausi A. Mller, University of Victoria, Canada
+* Hausi A. Muller, University of Victoria, Canada
 * Yu Pei, The Hong Kong Polytechnic University, China
 * Xin Peng, Fudan University, China
 * Shengchao Qin, Teesside University, UK
@@ -58,8 +57,8 @@
 * Tao Xie, Peking University, China
 * Xiaofei Xie, Nanyang Technological University, Singapore
 * Jifeng Xuan, Wuhan University, China
-* Chenyi Zhang, Jinan University, China
 * Jie Zhang, University College London, UK
+* Chenyi Zhang, Jinan University, China
 * Yuxia Zhang, Beijing Institute of Technology, China
 * Haiyan Zhao, Peking University, China
 * Junfeng Zhao, Inner Mongolia University, China

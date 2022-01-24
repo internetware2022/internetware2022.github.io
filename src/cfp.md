@@ -4,7 +4,7 @@ Internet is open, dynamic, and meets a constantly changing environment. Software
 
 This symposium aims to provide an interactive forum where researchers and professionals from multiple disciplines and domains meet and exchange ideas to explore and address the challenges brought by Internetware.
 
-Internetware 2022 will be held June 11-12 in Huhhot, China. We solicit submissions describing original and unpublished results of theoretical, empirical, conceptual, and experimental software engineering research related to Internetware. Topics of interests include but are not limited to:
+Internetware 2022 will be held June 11-12 in Hohhot, China. We solicit submissions describing original and unpublished results of theoretical, empirical, conceptual, and experimental software engineering research related to Internetware. Topics of interests include but are not limited to:
 
 * Novel software paradigm for Internetware
 * Modeling and implementation of Internetware
@@ -33,7 +33,10 @@ Best papers submitted to the technical research track will be selected and invit
 
 Best papers submitted to a special track will be first accept to Internetware 2022 proceedings, and then be invited to submit an extended version to the corresponding journals. All extended submissions will be evaluated following the guidelines of the corresponding journal. Only those satisfying all the criteria will be accepted for the journal publication.
 
-(To be announced)
+This year's two special section/issues:
+
+- [Special Section/Issue on intelligent software engineering](#special)
+- [Special Section/Issue on evolving large-scale systems](#special)
 
 ### Submission
 

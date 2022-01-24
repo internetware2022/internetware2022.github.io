@@ -1,105 +1,64 @@
 body {
     font-family: 'Lato', sans-serif;
 }
-.upper{
-    width: 100%;
-    text-align: center;
-    height: auto;
+h1 {
+    font-size: 2.5em;
+    font-weight: 1000;
+    margin-bottom: 5px;
 }
-.title{
-    width:75%;
-    text-align: left;
-    display: inline-block;
+h2 {
+    font-size: 1.4em;
+    color: #555;
+}
+h3 {
+    font-size: 1.4em;
+    padding-bottom: 10px;
+    margin-block-start: 0em;
+}
+h4 {
+    font-size: 1.3em;
+    padding-bottom: 10px;
+}
 
-}
-.title2{
-    display: flex;
-    width: 100%;
-}
-.title_text{
-    font-size: 4em;
-    font-weight:bolder;
-}
-.title_text2{
-    font-size: 2em;
-    font-weight: bold;
-}
-.lower{
-    width: 100%;
-    text-align: center;
-    height: auto;
-}
-.registration{
-    background-color: rgba(217, 241, 197, 0.479);
-    display: inline-block;
-    width: 90%;
-    text-align: center;
-    margin-top: 2em;
-    margin-bottom: 1em;
-}
-.table1{
-    border: 0.1em solid rgb(0, 0, 0);
-}
-.choice{
+.choice {
     background-color: rgb(230, 230, 230);
-    width: 100%;
+    width: 170px;
     border-radius: 0.5em;
+    text-align: center;
 }
-.sign{
-    background-color: rgb(223, 217, 217);
-    width: 100%;
-    height: 33em;
-    border-radius: 0.5em;
-}
-.pages{
-    width: 80%;
-}
-.Button{
+.button {
+    display: block;
+    text-decoration: none;
     color: rgba(61, 89, 182);
     background-color: rgb(230, 230, 230);
     border-radius: 0.4em;
-    width: 90%;
+    width: 100%;
     padding-top: 1em;
     padding-bottom: 1em;
     margin-top: 2%;
     border: 0;
-    font-size: 1.4em;
     font-weight: 500;
 }
-.Homeimg{
-    width: 20%;
+.button-selected {
+    background-color: rgb(42, 75, 182);
+    color: rgb(255,255,255);
 }
+
 .scroll{
     overflow: scroll;
 }
-td{
+td {
     border: 0.1em solid rgb(223, 217, 217);
 }
-p{
-    font-size: 1.7em;
-    margin-bottom: 20px;
-}
-b{
-    font-size: 1.7em;
+b {
     font-weight: normal;
 }
-.food_text{
-    font-size: 1.5em;
+.food_text {
     font-weight: normal;
 }
 
-h3 {
-    margin-block-start: 0em;
-    font-size: 2.5em;
-}
-h1 {
-    font-size: 100em;
-}
-h4 {
-    font-size: 2em;
-}
-li {
-    font-size: 1.7em;
+p {
+    margin-bottom: 20px;
 }
 p, li {
     line-height: 175%;
@@ -109,8 +68,18 @@ p, li {
 p + h3, ul + h3, ol + h3 {
     margin-top: 40px;
 }
+p + h4, ul + h4, ol + h4, ul + p {
+    margin-top: 20px;
+}
 .d {
     text-align: justify;
     margin-left: 2em;
-    display: none;
+}
+li {
+    list-style-type: square;
+    margin-left: 1.25em;
+}
+a {
+    text-decoration: underline;
+    color:rgb(42, 75, 182);
 }
