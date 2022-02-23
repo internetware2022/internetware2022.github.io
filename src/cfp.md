@@ -45,8 +45,8 @@ All papers (main conference or special track) must be submitted electronically t
 
 Important dates:
 
-* Submission Deadline: February 20, 2022
-* Notification of Acceptance: April 17, 2022
+* Submission Deadline: ~~February 20, 2022~~ Extended to March 13,2022
+* Notification of Acceptance: ~~April 17, 2022~~ Extended to April 29,2022
 * Camera-Ready Version: April 30, 2022
 
 <div style="display: none;">
