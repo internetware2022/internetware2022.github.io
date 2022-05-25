@@ -51,8 +51,9 @@ And in the journal round, only the selected best papers will be invited to submi
 
 **Internetware conference round**
 
-- Submission Deadline: ~~February 20, 2022~~ Extended to March 13,2022
-- Notification of Acceptance: ~~April 17, 2022~~ Extended to April 29,2022
+- Submission Deadline: <del>February 20, 2022</del> Extended to March 13,2022
+- Notification of Acceptance: <del>April 17, 2022</del> Extended to April 29,2022
+- Camera-Ready Version: June 5,2022(Temporary)
 
 **Journal round**
 
@@ -104,8 +105,9 @@ The submissions should not have been published previously nor be under review. I
 
 **Internetware Conference Round**
 
-- Submission Deadline: ~~February 20, 2022~~ Extended to March 13,2022
-- Notification of Acceptance: ~~April 17, 2022~~ Extended to April 29,2022
+- Submission Deadline: <del>February 20, 2022</del> Extended to March 13,2022
+- Notification of Acceptance: <del>April 17, 2022</del> Extended to April 29,2022
+- Camera-Ready Version: June 5,2022(Temporary)
 
 **Journal Round and Standalone Submissions**
 
