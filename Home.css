@@ -50,6 +50,9 @@ h4 {
 td {
     border: 0.1em solid rgb(223, 217, 217);
 }
+th {
+    border: 0.1em solid rgb(223, 217, 217);
+}
 b {
     font-weight: normal;
 }
