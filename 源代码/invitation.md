@@ -1,4 +1,4 @@
-### Download invitation
+### Invitation Letter
 Please click <a href="./src/invitation.pdf">here</a> to download the invitation letter
 ### Questionnaire for Internetware 2022
 
