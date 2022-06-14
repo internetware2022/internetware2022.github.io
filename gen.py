@@ -17,6 +17,7 @@ sections = [
     ('venue', 'Venue and Access'),
     ('travel', 'Travel and Foods'),
     ('registration', 'Registration'),
+    ('invitation', 'Invitation letter & Questionnaire'),
 ]
 
 def get_sections():
