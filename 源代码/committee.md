@@ -70,7 +70,7 @@
 * Jiantao Zhou, Inner Mongolia University, China
 * Junfeng Zhao, Inner Mongolia University, China
 
-### Web Chair
+### Website Chair
 
 * Yongqiang Gao, Inner Mongolia University, China
 
